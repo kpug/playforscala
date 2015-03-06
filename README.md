@@ -7,3 +7,6 @@ Korea Play User group 3차 스터디
 * 장소 : 토즈 강남점
 * 스터디 내용 : play for scala (; http://www.manning.com/hilton/ )
 * 스터디 방법 : 1시간 30분 공부 및 실습, 30분 회고
+
+산출물 정리
+ * [스터디 내용 요약 wiki](https://github.com/kpug/playforscala/wiki/)
