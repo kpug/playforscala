@@ -9,4 +9,5 @@ Korea Play User group 3차 스터디
 * 스터디 방법 : 1시간 30분 공부 및 실습, 30분 회고
 
 산출물 정리
- * [스터디 내용 요약 wiki](https://github.com/kpug/playforscala/wiki/)
+ * [플레이 Overview](https://github.com/kpug/playforscala/wiki/Hello,-Play!#overview)
+ * [Hello world](https://github.com/kpug/playforscala/wiki/Hello,-Play!#hello-world)
