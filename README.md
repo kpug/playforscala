@@ -13,3 +13,4 @@ Korea Play User group 3차 스터디
 
 개인별 프로젝트 링크
  * [Feedback](https://github.com/FlyMe/Feedback) (by Hanyong Jo)
+ * [MobyDick](https://github.com/ultimate1352/MobyDick) (by Kyeongbeom Kim)
