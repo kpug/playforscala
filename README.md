@@ -12,7 +12,7 @@
 * [playforscala](https://github.com/ultimate1352/playforscala)
 
 ### 산출물 정리
- * [스터디 내용 정리 Wiki](https://github.com/kpug/playforscala/wiki)
+ * [스터디 내용 정리 Wiki](https://github.com/kpug/playforscala/tree/master/wiki)
 
 ### 개인별 프로젝트 링크
  * [Feedback](https://github.com/FlyMe/Feedback) (by Hanyong Jo)
