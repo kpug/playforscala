@@ -4,7 +4,7 @@
  - 스칼라 웹 개발을 할 수 있도록 한 프레임워크 + 타입 안정성까지 향상
  - JVM에서 동작하고 자바를 지원하지만 자바EE 기반이 아님
 
-#### 플레이 공식 사이트 플레이 소개 (https://www.playframework.com)
+#### 플레이 공식 사이트 플레이 소개 [(공식 사이트)](https://www.playframework.com)
  - 생산성 높은 모던 웹 프레임워크
  - Stateless
  - 웹 친화적 아키텍처, 특징
@@ -13,6 +13,13 @@
 > Play is a high-productivity Java and Scala web application framework that integrates the components and APIs you need for modern web application development.
 
 > Play is based on a lightweight, stateless, web-friendly architecture and features predictable and minimal resource consumption (CPU, memory, threads) for highly-scalable applications thanks to its reactive model, based on Iteratee IO.
+
+#### 플레이 철학 [(공식 사이트)](https://www.playframework.com/documentation/2.3.x/Philosophy)
+- 비동기 프로그래밍에 적합
+- 타입 세이프
+- 자바와 스칼라 지원
+- 강력한 빌드 시스템
+- 데이터 저장소와 모델 통합
 
 #### 높은 생산성, 간결함 (개발 속도 향상)
  - 풀스택 웹 프레임워크
