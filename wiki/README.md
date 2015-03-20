@@ -6,6 +6,8 @@ Welcome to the PlayForScala wiki!
   - [Hello world 출력](https://github.com/kpug/playforscala/blob/master/wiki/Hello%20플레이.md#hello-world-출력)
  - [HTTP 인터페이스, Routes 파일](https://github.com/kpug/playforscala/blob/master/wiki/Chapter4.md)
  - [데이터베이스 사용](https://github.com/kpug/playforscala/blob/master/wiki/데이터베이스%20사용.md)
+  - [Overview](https://github.com/kpug/playforscala/blob/master/wiki/데이터베이스%20사용.md#overview) 
+  - [스키마, 모델 만들기](https://github.com/kpug/playforscala/blob/master/wiki/데이터베이스%20사용.md#스키마-모델-만들기)
  - [유용한 팁](https://github.com/kpug/playforscala/blob/master/wiki/유용한%20팁.md)
   - [배치(batch) 작업](https://github.com/kpug/playforscala/blob/master/wiki/유용한%20팁.md#배치-작업)
  - 참고 사이트
