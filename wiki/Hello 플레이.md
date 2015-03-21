@@ -103,9 +103,12 @@ object Application extends Controller {
       //views 폴더의 index.scala.html 템플릿에 매개변수를 전달하며 호출
       Ok(views.html.index("Your new application is ready."))     
   }
-
+I
 }
 ````
+
+위의 예제 코드를 보면 play.api로 시작된 패키지명을 볼 수 있다, Play를 자바버전으로 실행시켜보았거나 구글링을 통해서 여러 예제를 보신 분이라면 알겠지만 Play API에는 두가지 종류의 패키지가 있다.
+하나는 `play.`으로 시작하는 것과  `play.api.`로 시작하는 패키지가 있다. 예를들어 mvc패키지는 `play.mvc`와 `play.api.mvc`가 있는데 이 둘의 차이점은 전자는 Play 자바전용이고 후자는 Play 스칼라 전용이다. 따라서 이 예제를 실행시키는 스칼라 개발자분들은 play와 관련된 클래스는 play.api로 시작되는 패키지를 import하면 된다.
 
 index.scala.html 파일
 ````
