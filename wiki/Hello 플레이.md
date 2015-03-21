@@ -103,7 +103,6 @@ object Application extends Controller {
       //views 폴더의 index.scala.html 템플릿에 매개변수를 전달하며 호출
       Ok(views.html.index("Your new application is ready."))     
   }
-I
 }
 ````
 
