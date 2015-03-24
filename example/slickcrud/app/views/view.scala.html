@@ -1,0 +1,42 @@
+@(board:BoardVO)
+
+@layout {
+<script>
+    function deleteConfirm() {
+        if(confirm("정말로 삭제하시겠습니까?")){
+            return true;
+        }
+        return false;
+    }
+</script>
+<table class="table table-bordered">
+    <tr>
+        <th>Name</th>
+        <td>@board.name</td>
+    </tr>
+    <tr>
+        <th>Subject</th>
+        <td>@board.title</td>
+    </tr>
+    <tr>
+        <th>Date</th>
+        <td>@{ String.format("%1$tY / %1$tm / %1$td", board.date) }</td>
+    </tr>
+    <tr>
+        <th>Content</th>
+        <td>@board.content</td>
+    </tr>
+    <tr>
+        <th>File</th>
+        <td><a href="/assets/@board.filepath">@board.filepath</a></td>
+    </tr>
+</table>
+<div class="row">
+    <div class="col-md-6">
+        <a href="@routes.BoardController.delete(board.id)" onclick="return deleteConfirm()" class="btn btn-danger btn-block">Delete</a>
+    </div>
+    <div class="col-md-6">
+        <a href="@routes.BoardController.edit(board.id)" class="btn btn-default btn-block">Edit</a>
+    </div>
+</div>
+}

@@ -1,0 +1,40 @@
+@(list:List[BoardVO], start:Int, current:Int)
+@layout {
+<table class="table table-striped table-bordered">
+    <thead>
+    <tr>
+        <th width="5%">#</th>
+        <th width="70%">Title</th>
+        <th width="10%">Writer</th>
+        <th width="15%">Date</th>
+    </tr>
+    </thead>
+    <tbody>
+    @for(board <- list){
+    <tr>
+        <td>@board.id</td>
+        <td><a href="@routes.BoardController.view(board.id)">@board.title</a></td>
+        <td>@board.name</td>
+        <td>@{ String.format("%1$tY / %1$tm / %1$td", board.date) }</td>
+    </tr>
+    }
+    </tbody>
+</table>
+<nav style="position:relative;left:50%;margin-left:-222px">
+    <ul class="pagination" style="margin:0">
+        <li><a href="#">Prev</a></li>
+
+        @defining({
+            val totalRecord = models.Boards.totalRecord
+            Math.ceil((totalRecord % (10 * 10)) / 10.0).toInt
+        }){ last =>
+            @for(i <- (start until (start + last))) {
+                <li><a href="@routes.BoardController.list(i)">@i</a></li>
+            }
+        }
+
+        <li><a href="#">Next</a></li>
+    </ul>
+</nav>
+<a href="@routes.BoardController.write" class="btn btn-primary pull-right"><span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;&nbsp;Create</a>
+}

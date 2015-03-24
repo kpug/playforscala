@@ -1,0 +1,31 @@
+@(board:Option[BoardVO], user:models.User)
+@layout {
+<form action='@routes.BoardController.post' method="post" enctype="multipart/form-data">
+    <input type="hidden" name="id" id="id" value='@board.map(_.id).getOrElse(0)'>
+
+    <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" class="form-control" id="title" name="title" value='@board.map(_.title).getOrElse("")' placeholder="Enter Title">
+    </div>
+    <div class="form-group">
+        <b>Name</b><br>
+        @user.name
+    </div>
+    <div class="form-group">
+        <label for="content">Content</label>
+        <textarea id="content" name="content" class="form-control" rows="20">@board.map(_.content).getOrElse("")</textarea>
+    </div>
+    <div class="form-group">
+        <label for="file">File</label>
+        @board.map(_.filepath).getOrElse("")
+        <input type="file" class="form-control" id="file" name="file">
+    </div>
+    <div class="row" style="padding:10px 20px 30px 20px">
+        <a href="@routes.BoardController.list(1)" class="btn btn-default">
+            <span class="glyphicon glyphicon-align-justify"></span>
+            &nbsp;&nbsp;&nbsp;List
+        </a>
+        <button type="submit" class="btn btn-primary pull-right">Complete</button>
+    </div>
+</form>
+}

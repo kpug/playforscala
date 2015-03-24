@@ -1,0 +1,15 @@
+@layout {
+<div class="col-md-4" style="position:fixed;top:34%;left:34%;">
+<form action='@routes.UserController.loginProcess' method="post">
+    <div class="form-group">
+        <label for="userid">User ID</label>
+        <input type="text" name="userid" id="userid" class="form-control" placeholder="Enter User ID">
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" class="form-control" placeholder="Enter Password">
+    </div>
+    <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+</form>
+</div>
+}
