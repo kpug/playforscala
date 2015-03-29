@@ -14,8 +14,8 @@
 
 ## 타입세이프한 템플릿 엔진
  
- - Play 1 템플릿 엔진
- ```
+- Play 1 템플릿 엔진
+```
 <h1>Articles</h1>
 <ul>
 #{list articles, as:'article'}
@@ -26,7 +26,6 @@
     #{/list}
 </ul>
 ```
-
 
 - Play 2 템플릿 엔진
 ```
@@ -57,13 +56,13 @@
 - 주석은 @* *@ 로 추가
 
 ## 컬렉션 표현하기
-
+```
 <ul>
     @articles.map { article =>
-            <li>@article.name</li>
-                }
-                </ul>
-
+        <li>@article.name</li>
+    }
+</ul>
+```
 ## 플레이에서 크로스 사이트 스크립팅
 
 그냥 사용하면 알아서 됨.
