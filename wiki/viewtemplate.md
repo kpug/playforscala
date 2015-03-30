@@ -63,6 +63,27 @@
     }
 </ul>
 ```
+참고) for 문 사용 시
+````
+<ul>
+    @for(article <- articls) {
+        <li>@article.name</li>
+    }
+</ul>
+````
+
+## 분기 표현하기
+if 문을 사용하거나
+````
+@if(article.price == 0) { 무료 } else { @article.price&nbsp;원 }
+````
+ match 구문 사용 가능
+````
+@article.price match {
+     case 0 => { 무료 }
+     case p => { @p&nbsp;원 }
+}
+````
 ## 플레이에서 크로스 사이트 스크립팅
 
 그냥 사용하면 알아서 됨.
