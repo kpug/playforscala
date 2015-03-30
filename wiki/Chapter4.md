@@ -72,6 +72,11 @@ PUT /product/:ean        controllers.Products.update(ean: Long)
 ####route 파일 tip
 - route 파일에서 위에 있을 수록 우선순위가 높다
 - 슬래시를 포함한 경로에 매치될 수 있도록 :대신 *을 사용할 수 있다.
+ - 만약 아래와 같이 선언한다면 /assets/ 아래에 오는 모든 문자열(/ 포함)은 file 파라미터에 바운드 된다.
+ - URL이 /assets/images/sample.png 인 경우 file은 images/sample.png 이 됨
+````
+GET /assets/*file         controllers.Assets.at(path = "/public", file)
+````
 
 ####라우팅을 수행할 때 다음과 같은 일이 일어난다
 1. 라우터는 요청URL을 통해 구성된 경로 비교하여 적절한 경로를 찾는다.
