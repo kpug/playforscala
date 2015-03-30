@@ -12,6 +12,7 @@ Welcome to the PlayForScala wiki!
  - [유용한 팁](https://github.com/kpug/playforscala/blob/master/wiki/유용한%20팁.md)
   - [배치(batch) 작업](https://github.com/kpug/playforscala/blob/master/wiki/유용한%20팁.md#배치-작업)
  - 참고 사이트
+  - [플레이 스칼라 vs 자바 성능 비교](http://playframework.github.io/prune/) 
   - [플레이 애플리케이션 샘플(공식)](https://www.playframework.com/documentation/2.0/Samples)
     - 플레이가 설치된 폴더/smaples/ 아래 기본적인 샘플 소스코드들이 있음
   - [플레이 스칼라 문서(공식)](https://www.playframework.com/documentation/2.3.x/ScalaHome)
