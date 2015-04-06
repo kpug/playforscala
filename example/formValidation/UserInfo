@@ -1,0 +1,6 @@
+package models
+
+/**
+ * Created by Hanyong Jo on 15. 4. 6..
+ */
+case class UserInfo(name: String, email: String, address: Option[String])
