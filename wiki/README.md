@@ -10,6 +10,12 @@ Welcome to the PlayForScala wiki!
   - [스키마, 모델 만들기](https://github.com/kpug/playforscala/blob/master/wiki/데이터베이스%20사용.md#스키마-모델-만들기)
   - [쿼리 작성, 실행하기](https://github.com/kpug/playforscala/blob/master/wiki/데이터베이스%20사용.md#쿼리-작성-실행)
  - [입력값 검증하기](https://github.com/kpug/playforscala/blob/master/wiki/입력값%20검증하기.md)
+  - [개요](https://github.com/kpug/playforscala/blob/master/wiki/입력값%20검증하기.md#개요)
+  - [Mapping](https://github.com/kpug/playforscala/blob/master/wiki/입력값%20검증하기.md#맵핑mapping)
+  - [데이터 처리](https://github.com/kpug/playforscala/blob/master/wiki/입력값%20검증하기.md#데이터-처리)
+  - [객체 맵핑](https://github.com/kpug/playforscala/blob/master/wiki/입력값%20검증하기.md#객체-맵핑-가장-많이-쓰는-방법)
+  - [HTTP 요청에서 데이터 가져오기](https://github.com/kpug/playforscala/blob/master/wiki/입력값%20검증하기.md#http-요청에서-값-가져오기)
+  - [실습](https://github.com/kpug/playforscala/blob/master/wiki/입력값%20검증하기.md#실습-예제)
  - [유용한 팁](https://github.com/kpug/playforscala/blob/master/wiki/유용한%20팁.md)
   - [배치(batch) 작업](https://github.com/kpug/playforscala/blob/master/wiki/유용한%20팁.md#배치-작업)
  - 참고 사이트
