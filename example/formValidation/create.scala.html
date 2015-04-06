@@ -1,0 +1,10 @@
+@(form: Form[UserInfo])
+
+@main("사용자 정보 추가") {
+    @helper.form(action = routes.Application.createUserInfo()) {
+        @helper.inputText(form("name"))
+        @helper.inputText(form("email"))
+        @helper.inputText(form("address"))
+        <button type="submit">추가</button>
+    }
+}
