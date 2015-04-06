@@ -24,9 +24,8 @@ object Application extends Controller {
 
   def createUserInfo = Action { implicit request =>
     userInfoForm.bindFromRequest.fold(            //bindFromRequest()(request) 인데 생략된거임.(implicit 때문에 가능)
-    formWithErrors => Ok(views.html.create(formWithErrors)),
-    userInfo => Ok(userInfo.name +"\n" + userInfo.email + "\n" + userInfo.address.getOrElse("없음")))
-//    userInfo => Ok("추가 완료\n" + userInfo))
+    formWithErrors => BadRequest(views.html.create(formWithErrors)),
+    userInfo => Ok(views.html.view(userInfo)))
   }
 
 }
