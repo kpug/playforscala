@@ -1,12 +1,12 @@
 Welcome to the PlayForScala wiki!
 
  - [Hello, 플레이!](https://github.com/kpug/playforscala/blob/master/wiki/Hello%20플레이.md)
-  - [Overview](https://github.com/kpug/playforscala/blob/master/wiki/Hello%20플레이.md#overview)
+  - [개요](https://github.com/kpug/playforscala/blob/master/wiki/Hello%20플레이.md#개요)
   - [플레이 애플리케이션 구조](https://github.com/kpug/playforscala/blob/master/wiki/Hello%20플레이.md#플레이-애플리케이션-구조)
   - [Hello world 출력](https://github.com/kpug/playforscala/blob/master/wiki/Hello%20플레이.md#hello-world-출력)
  - [HTTP 인터페이스, Routes 파일](https://github.com/kpug/playforscala/blob/master/wiki/Chapter4.md)
  - [데이터베이스 사용](https://github.com/kpug/playforscala/blob/master/wiki/데이터베이스%20사용.md)
-  - [Overview](https://github.com/kpug/playforscala/blob/master/wiki/데이터베이스%20사용.md#overview) 
+  - [개요](https://github.com/kpug/playforscala/blob/master/wiki/데이터베이스%20사용.md#개요) 
   - [스키마, 모델 만들기](https://github.com/kpug/playforscala/blob/master/wiki/데이터베이스%20사용.md#스키마-모델-만들기)
   - [쿼리 작성, 실행하기](https://github.com/kpug/playforscala/blob/master/wiki/데이터베이스%20사용.md#쿼리-작성-실행)
  - [입력값 검증하기](https://github.com/kpug/playforscala/blob/master/wiki/입력값%20검증하기.md)
