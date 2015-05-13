@@ -18,6 +18,7 @@ Welcome to the PlayForScala wiki!
   - [실습](https://github.com/kpug/playforscala/blob/master/wiki/입력값%20검증하기.md#실습-예제)
  - [유용한 팁](https://github.com/kpug/playforscala/blob/master/wiki/유용한%20팁.md)
   - [배치(batch) 작업](https://github.com/kpug/playforscala/blob/master/wiki/유용한%20팁.md#배치-작업)
+  - [플레이 웹앱을 도커 이미지로 만들기](http://pragmaticstory.com/2206)
  - 참고 사이트
   - [플레이 스칼라 vs 자바 성능 비교](http://playframework.github.io/prune/) 
   - [플레이 애플리케이션 샘플(공식)](https://www.playframework.com/documentation/2.0/Samples)
