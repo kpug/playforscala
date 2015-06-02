@@ -10,7 +10,7 @@ Welcome to the PlayForScala wiki!
  - [3. 데이터베이스 사용](https://github.com/kpug/playforscala/blob/master/wiki/3.%20데이터베이스%20사용.md)
   - [개요](https://github.com/kpug/playforscala/blob/master/wiki/3.%20데이터베이스%20사용.md#개요) 
   - [스키마, 모델 만들기](https://github.com/kpug/playforscala/blob/master/wiki/3.%20데이터베이스%20사용.md#스키마-모델-만들기)
-  - [쿼리 작성, 실행하기](httpshttps://github.com/kpug/playforscala/blob/master/wiki/3.%20데이터베이스%20사용.md#쿼리-작성-실행)
+  - [쿼리 작성, 실행하기](https://github.com/kpug/playforscala/blob/master/wiki/3.%20데이터베이스%20사용.md#쿼리-작성-실행)
  - [4. 뷰템플릿](https://github.com/kpug/playforscala/blob/master/wiki/4.%20뷰템플릿.md)
   - [타입세이프한 템플릿 엔진](https://github.com/kpug/playforscala/blob/master/wiki/4.%20뷰템플릿.md#타입세이프한-템플릿-엔진)
   - [템플릿 기본과 공통 구조](https://github.com/kpug/playforscala/blob/master/wiki/4.%20뷰템플릿.md#템플릿-기본과-공통-구조)
