@@ -8,9 +8,6 @@
 * 스터디 내용 : play for scala (; http://www.manning.com/hilton/ )
 * 스터디 방법 : 1시간 30분 공부 및 실습, 30분 회고
 
-### 책 예제
-* [playforscala](https://github.com/ultimate1352/playforscala)
-
 ### 산출물 정리
  * [스터디 내용 정리 Wiki](https://github.com/kpug/playforscala/tree/master/wiki)
 
